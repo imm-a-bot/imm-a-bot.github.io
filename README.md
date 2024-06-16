@@ -1,2 +1,2 @@
 # Nysis's Birthday Site
-twas his birfday so we made him a website
+displays confetti and changing splash text on button interact
