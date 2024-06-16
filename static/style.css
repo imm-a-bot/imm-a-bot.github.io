@@ -6,14 +6,18 @@ body {
     width: 100vw;
     margin: 0;
     background-color: black;
-    position: relative; /* Make body a positioning context */
+    position: relative;
 }
 
 h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 10vw;
-    margin-bottom: 20vw;
+    margin: 0;
     color: white;
-    text-align: center; /* Center align the text */
+    text-align: center;
 }
 
 img {
@@ -23,7 +27,7 @@ img {
 
 #confettiButton {
     position: absolute;
-    top: 50%;
+    top: 60%; 
     left: 50%;
     transform: translate(-50%, -50%);
     width: 30vw; 
